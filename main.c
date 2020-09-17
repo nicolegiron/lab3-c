@@ -17,7 +17,7 @@ int sum_n(n){
   }
 }
 
-void print_n(char *s, n){
+void print_n(char *s,int n){
   if(n==0){
     
   } else {

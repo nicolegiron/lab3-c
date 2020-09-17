@@ -21,7 +21,7 @@ void print_n(char *s,int n){
   if(n==0){
     
   } else {
-    printf("%s", s);
+    printf("%s\n", s);
     print_n(s, n-1);
   }
 }
